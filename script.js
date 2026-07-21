@@ -20,12 +20,13 @@ let d;
 
 window.addEventListener("DOMContentLoaded", () => {
     d = document.getElementById("display");
-    
+  });
+
 const deletebutton = document.getElementById("deleteBtn");
 
 deletebutton.addEventListener("click", () => {
   display.value = display.value.toString().slice(0, -1);
-});
+
 });
 
 function appendToDisplay(value) {
