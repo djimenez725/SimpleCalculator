@@ -20,9 +20,7 @@ let d;
 
 window.addEventListener("DOMContentLoaded", () => {
     d = document.getElementById("display");
-});
-
-
+    
 const deletebutton = document.getElementById("deleteBtn");
 
 deletebutton.addEventListener("click", () => {
