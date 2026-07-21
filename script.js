@@ -63,7 +63,6 @@ function evaluateExpression() {
         } else {
             result = parseFloat(number[0]) / parseFloat(number[1]);
         }
-    }
 
         d.value = result;
 }
