@@ -39,7 +39,7 @@ function evaluateExpression() {
 
     const exp = d.value;
     let result;
-    let number;;
+    let number;
 
     if (/\+/.test(exp)) {
         number = exp.split("+");
