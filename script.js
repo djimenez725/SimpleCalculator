@@ -44,7 +44,7 @@ function evaluateExpression() {
     let number;;
 
     if (/\+/.test(exp)) {
-        number = number.split("+");
+        number = exp.split("+");
         result = parseFloat(number[0]) + parseFloat(number[1]);
     } 
     
